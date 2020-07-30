@@ -3,9 +3,14 @@
 /*      NAVIGATION      */
 
 .nav{
+    border-bottom: 5px solid white;
+    position: fixed;
+    width: 100%;
+    top:0;
     color: white;
     background-color: #ffdad8;
-    padding: 10px;
+    z-index: 10;
+    /* margin-top: 0; */
 }
 
 .sidenav {
@@ -15,7 +20,6 @@
     position: fixed;
     z-index: 10;
     top: 0;
-    left: 0;
     background-color: #ffdad8;
     overflow-x: hidden;
     transition: 0.5s;

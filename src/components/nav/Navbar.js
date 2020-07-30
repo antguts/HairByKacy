@@ -13,6 +13,7 @@ const Navbar =()=> {
 
         return (
             <div className="nav">
+                <span style={{fontSize: '30px', cursor:'pointer'}} onClick={()=>openNav()}>&#9776; </span>
                 <div id="mySidenav" className="sidenav">
                     <a href="javascript:void(0)" className="closebtn" style={{color: 'white'}}onClick={()=>closeNav()}>&times;</a>
                     <a href="#">About</a>
@@ -20,7 +21,6 @@ const Navbar =()=> {
                     <a href="#">Services</a>
                     <a href="#">Contact</a>
                 </div>
-                <span style={{fontSize: '30px', cursor:'pointer'}} onClick={()=>openNav()}>&#9776; </span>
 
             </div>
         );

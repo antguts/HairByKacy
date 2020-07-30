@@ -7,7 +7,7 @@ import Navbar from './components/nav/Navbar.js';
 
 function App() {
   return (
-    <div>
+    <div style={{overflow: 'auto'}}>
       <Navbar />
       <Switch>
       <Route  exact path='/' render={(props)=><Home {...props}/>}/>

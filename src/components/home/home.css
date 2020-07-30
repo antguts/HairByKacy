@@ -1,0 +1,72 @@
+.hero{
+    margin-top: 50px;
+    height: 30vh;
+    width: 100%;
+    background: url('../../assets/placeHolder-home-Hero.jpg') no-repeat ;
+    background-size: cover;
+}
+
+.aboutContent{
+    padding: 10px;
+    color: white;
+    margin: 20px 10px 20px 15%;
+    /* margin-right: 10px;
+    margin-left: 15%; */
+    box-shadow: -10vh 35px #f6a2bf;
+    background-color: #ffdad8;
+}
+.aboutContent h1{
+    text-align: right;
+}
+
+
+
+.workSection{
+    color: #f6a2bf;
+    text-align: center;
+    margin-top: 50px;
+}
+.workSection h1{
+    margin: 0 15%;
+    border-bottom: 1px solid #f6a2bf;
+}
+
+
+.gallery{
+    height: 250px;
+    display: flex;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #ffdad8;
+}
+
+.faqContent{
+    margin: 20px 15% 20px 10px;
+    color: white;
+    background-color: #ffdad8;
+    box-shadow: 10vh 35px #f6a2bf;
+
+}
+
+ul{
+    color: #f6a2bf;
+    position: relative;
+    list-style: none;
+    margin-right: 15px;
+    padding-bottom: 10px;
+}
+li{
+    border: 1px solid #f6a2bf;
+}
+
+.contactSection{
+    position: absolute;
+    margin-top: 20px;
+}
+
+.contactSection h1{
+    color: #f6a2bf;
+    border-bottom: 1px solid #f6a2bf;
+}
